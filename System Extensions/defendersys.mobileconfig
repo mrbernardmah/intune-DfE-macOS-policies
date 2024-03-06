@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>macOS - Defender Security Extension</string>
+			<key>PayloadDisplayName</key>
+			<string>macOS - Defender Security Extension</string>
+			<key>PayloadIdentifier</key>
+			<string>ADA31BF4-8615-4723-AD20-247F4A68CDD9</string>
+			<key>PayloadOrganization</key>
+			<string>CSPD</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>40B3A18C-9C96-4ACC-84F1-DF34970143B2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>ScreenCapture</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.microsoft.wdav.epsext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.microsoft.wdav.epsext</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>macOS - Defender Security Extension</string>
+	<key>PayloadDisplayName</key>
+	<string>macOS - Defender Security Extension</string>
+	<key>PayloadIdentifier</key>
+	<string>ADA31BF4-8615-4723-AD20-247F4A68CDD9</string>
+	<key>PayloadOrganization</key>
+	<string>CSPD</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>EBC4533A-CD23-431A-BB97-0196CB75C790</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
